@@ -2,12 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,600&display=swap');
 @import "mixins";
 @import "variables";
-
-
 /* font-family: "Cormorant Garamond", serif; */
-
-
-
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -18,16 +13,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 body {
   margin: 0;
   padding: 0;
   line-height: 1.3;
   font-family: "Lobster", sans-serif;
   font-size: 1.2rem;
-
   font-weight: 300;
-
   &.noscroll {
     overflow: hidden;
   }
@@ -46,7 +38,6 @@ a:hover {
   text-decoration: none;
   color: #000;
 }
-
 //spacing
 .container {
   padding-left: 1.5rem;
@@ -56,7 +47,6 @@ a:hover {
 //Flexbox
 .flex {
   display: flex;
-
   &-jc-sb {
     justify-content: space-between;
   }
@@ -73,16 +63,13 @@ a:hover {
     flex-direction: column;
   }
 }
-
 //buttons
-
 .button,
 button {
   padding: 0.875rem 1.1875rem;
   border-radius: 50px;
   cursor: pointer;
   background: rgb(227, 212, 44);
-  
   border: none;
   color: white;
   font-weight: 400;
@@ -90,7 +77,6 @@ button {
 }
 
 //visability
-
 .hide-for-mobile {
   //hide for tablet and mobile
   @include breakpoint-down(medium) {

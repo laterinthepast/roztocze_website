@@ -1,15 +1,15 @@
 .news {
+  height: auto;
+  text-align: center;
   h2 {
-    font-size: 3rem;
-    padding: 1rem 0rem;
+    font-size: 10vw;
+    padding: 4vw 10vw;
     margin: 0;
     text-shadow: 3px 11px 13px rgba(0, 0, 0, 0.35);
   }
-  text-align: center;
-  padding: 3rem 1rem 0rem 1rem;
 
   &__flex {
-    margin: 2rem 0rem;
+    margin: 2vw 0;
     width: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 1rem 1rem;
@@ -71,9 +71,9 @@
 
 @media screen and (min-width: 1095px) {
   .news {
-    margin-top: 5rem;
-    &__wrapper {
-      padding: 2rem 7rem;
+    padding: 0 10vw;
+    h2 {
+      font-size: 5.5rem;
     }
   }
 }

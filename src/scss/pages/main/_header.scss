@@ -1,7 +1,6 @@
 /* HEADER */
 .header {
   background-color: #fff;
-  
   i {
     color: #000;
   }
@@ -32,16 +31,13 @@
     padding-bottom: 0.0625rem;
   }
   &__logo {
-    h1 {
-      font-size: 3rem;
-      color: #000;
-      margin: 0;
+    .img-mobile {
+      width: 40vw;
     }
     img {
       width: 3.8125rem;
     }
   }
-
   &__toggle {
     z-index: 5;
     > span {
@@ -51,7 +47,6 @@
       background-color: #000;
       transition: all 300ms ease-in-out;
       transform-origin: 4px 1px;
-
       &:not(:last-child) {
         margin-bottom: 4px;
       }
@@ -67,7 +62,6 @@
     left: 50%;
     transform: translateX(-50%);
     margin-top: 3rem;
-
     a {
       display: block;
       color: #000;
@@ -78,7 +72,6 @@
   &__cta {
     font-size: 1.2rem;
     transition: opacity 300ms ease-in-out;
-
     &:hover {
       opacity: 0.65;
     }
@@ -86,11 +79,10 @@
 }
 @media screen and (min-width: 47.9375em) {
   .navdesk {
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1vw;
   }
   #logo {
     font-size: 4rem;
@@ -106,10 +98,16 @@
       flex-direction: column;
       width: 100%;
       align-items: center;
+      &__logo {
+        img {
+          padding: 1vw 3vw;
+          width: 35vw;
+        }
+      }
     }
     &__links__nav {
       display: flex;
-      
+
       a {
         padding: 0rem 1rem;
         font-size: 1.2rem;
