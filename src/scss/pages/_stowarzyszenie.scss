@@ -1,0 +1,33 @@
+.information__section {
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  padding: 1rem;
+  text-align: justify;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .information__section {
+    
+    
+    img {
+      width: 100%;
+      padding: 1rem 20rem;
+    }
+    padding: 1rem;
+    text-align: justify;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}

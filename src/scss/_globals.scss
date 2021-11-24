@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,600&display=swap');
+@import "mixins";
+@import "variables";
+
+
+/* font-family: "Cormorant Garamond", serif; */
+
+
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-family: "Lobster", sans-serif;
+  font-size: 1.2rem;
+
+  font-weight: 300;
+
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+//spacing
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+//Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-js-c {
+    justify-content: center;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+  &-ai-fs {
+    align-items: flex-start;
+  }
+  &-f-d {
+    flex-direction: column;
+  }
+}
+
+//buttons
+
+.button,
+button {
+  padding: 0.875rem 1.1875rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background: rgb(227, 212, 44);
+  
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-family: "Lobster", sans-serif;
+}
+
+//visability
+
+.hide-for-mobile {
+  //hide for tablet and mobile
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  //hide for desktops
+  @include breakpoint-up(medium) {
+    display: none;
+  }
+}

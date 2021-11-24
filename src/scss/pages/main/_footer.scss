@@ -1,0 +1,47 @@
+footer {
+  padding: 1rem;
+  color: #000;
+}
+.footer {
+  &__sponsors img {
+    width: 80px;
+    text-align: center;
+    padding: 0.3rem;
+  }
+  &__contact {
+    text-align: center;
+  }
+  &__address {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+}
+@media screen and(min-width: 768px) {
+  footer {
+    padding: 3rem 0rem;
+    color: #000;
+  }
+  .footer {
+    &__sponsors img {
+      width: 120px;
+      text-align: center;
+      padding: 0.3rem;
+    }
+    &__contact {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 2rem;
+        margin: 0;
+      }
+    }
+    &__address {
+      padding-top: 1rem;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+}

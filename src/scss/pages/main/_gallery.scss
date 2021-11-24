@@ -1,0 +1,108 @@
+@media screen and (max-width: 768px) {
+  .gallery__front {
+    
+    h2 {
+      margin: 0;
+      text-align: center;
+      padding: 1rem 0rem;
+      font-size: 3rem;
+      text-shadow: 3px 15px 13px rgba(0, 0, 0, 0.35);
+    }
+    
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 5.6px;
+      padding: 0rem 2rem 2rem 2rem;
+    }
+    &__card__wrapper {
+      flex: 25%;
+      max-width: 100%;
+      padding: 0.5rem;
+      text-align: center;
+      transition: 200ms all ease-in-out;
+      &:hover {
+        transform: scale(1.02);
+        
+      }
+      img {
+        width: 100%;
+        vertical-align: middle;
+        
+      }
+    }
+    &__photo img {
+      box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 5.6px;
+    }
+  }
+}
+@media screen and (min-width: 688px) {
+  .gallery__front {
+    h2 {
+      text-align: center;
+      padding: 0rem 0rem;
+      font-size: 3rem;
+      text-shadow: 3px 15px 13px rgba(0, 0, 0, 0.35);
+    }
+    
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 5.6px;
+      padding: 1rem 10rem;
+    }
+    &__card__wrapper {
+      flex: 25%;
+      max-width: 100%;
+      padding: 0.5rem;
+      text-align: center;
+      transition: 200ms all ease-in-out;
+      p {
+        font-size: 1.5rem;
+      }
+      &:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+      }
+      img {
+        width: 100%;
+        
+        
+      }
+    }
+    
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery__front {
+    
+    
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 5.6px;
+      padding: 1rem 20rem;
+    }
+    &__card__wrapper {
+      flex: 25%;
+      max-width: 100%;
+      padding: 0.5rem;
+      text-align: center;
+      transition: 200ms all ease-in-out;
+      p {
+        font-size: 1.5rem;
+      }
+      &:hover {
+        transform: scale(1.02);
+      }
+      img {
+        width: 100%;
+        
+        
+      }
+    }
+    
+  }
+}
