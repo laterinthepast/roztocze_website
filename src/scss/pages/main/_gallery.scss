@@ -36,11 +36,14 @@
     }
 
     &__wrapper {
-      
+    
       justify-content: center;
       align-items: flex-end;
       box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 5.6px;
       padding: 5vw 10vw;
+      p {
+        font-size: 3vw;
+      }
     }
     &__card__wrapper {
       transition: 200ms all ease-in-out;

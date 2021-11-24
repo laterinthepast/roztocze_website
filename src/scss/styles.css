@@ -267,6 +267,9 @@ button {
             box-shadow: rgba(0, 0, 0, 0.15) 3.95px 3.95px 5.6px;
     padding: 5vw 10vw;
   }
+  .gallery__front__wrapper p {
+    font-size: 3vw;
+  }
   .gallery__front__card__wrapper {
     -webkit-transition: 200ms all ease-in-out;
     transition: 200ms all ease-in-out;
@@ -780,6 +783,10 @@ button {
 .header nav {
   padding-top: 1.0625rem;
   padding-bottom: 0.0625rem;
+}
+
+.header__logo img {
+  width: 40vw;
 }
 
 .header__logo .img-mobile {

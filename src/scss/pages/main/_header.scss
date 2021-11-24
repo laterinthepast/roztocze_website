@@ -31,6 +31,9 @@
     padding-bottom: 0.0625rem;
   }
   &__logo {
+    img {
+      width: 40vw;
+    }
     .img-mobile {
       width: 40vw;
     }
@@ -77,6 +80,7 @@
     }
   }
 }
+
 @media screen and (min-width: 47.9375em) {
   .navdesk {
     display: flex;
