@@ -666,6 +666,7 @@ button {
     font-weight: bold;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    z-index: 9999;
   }
 }
 
