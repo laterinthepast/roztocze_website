@@ -314,7 +314,7 @@ button {
 }
 
 .a img {
-  width: 36vw !important;
+  width: 30vw !important;
 }
 
 #myBtn {
@@ -550,20 +550,17 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 2vw;
+  gap: 3vw;
   padding: 2vw 10vw;
 }
 
 .gallery img {
-  width: 25%;
+  width: 15vw;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   -webkit-transition: 100ms all ease-in-out;
@@ -628,18 +625,14 @@ button {
 }
 
 .zoomed {
-  display: block;
   position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
-}
-
-.zoomed img {
-  width: 100%;
-  height: auto;
+  height: auto !important;
+  width: 100% !important;
 }
 
 /* 100% Image Width on Smaller Screens */

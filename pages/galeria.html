@@ -87,13 +87,25 @@
 
 
   <div class="gallery">
-    <img class="myImg " src="../src/images/galeria/1.jpg" alt="" srcset="">
-    <img class="myImg " src="../src/images/galeria/2.jpg" alt="" srcset="">
-    <img class="myImg " src="../src/images/galeria/3.jpg" alt="" srcset="">
-    <img class="myImg " src="../src/images/galeria/4.jpg" alt="" srcset="">
-    <img class="myImg " src="../src/images/galeria/5.jpg" alt="" srcset="">
-    <img class="myImg " src="../src/images/galeria/6.jpg" alt="" srcset="">
-<!--     <img class="myImg " src="../src/images/galeria/7.jpg" alt="" srcset="">
+
+    <img class="lazy myImg" src="../src/images/galeria/2.jpg" data-src="../src/images/galeria/2.jpg"
+      data-srcset="../src/images/galeria/2.jpg" alt="Some tacos." />
+    <img class="lazy myImg" src="../src/images/galeria/5.jpg" data-src="../src/images/galeria/2.jpg"
+      data-srcset="../src/images/galeria/5.jpg" alt="Some tacos." />
+    <img class="lazy myImg" src="../src/images/galeria/4.jpg" data-src="../src/images/galeria/2.jpg"
+      data-srcset="../src/images/galeria/4.jpg" alt="Some tacos." />
+    <img class="lazy myImg" src="../src/images/galeria/3.jpg" data-src="../src/images/galeria/2.jpg"
+      data-srcset="../src/images/galeria/3.jpg" alt="Some tacos." />
+
+
+    <!-- <img class="myImg lazy" src="../src/images/galeria/1.jpg" alt="" loading="lazy">
+
+    <img class="myImg lazy" src="../src/images/galeria/2.jpg" alt="" srcset="">
+    <img class="myImg lazy" src="../src/images/galeria/3.jpg" alt="" srcset="">
+    <img class="myImg lazy" src="../src/images/galeria/4.jpg" alt="" srcset="">
+    <img class="myImg lazy" src="../src/images/galeria/5.jpg" alt="" srcset="">
+    <img class="myImg lazy" src="../src/images/galeria/6.jpg" alt="" srcset=""> -->
+    <!--     <img class="myImg " src="../src/images/galeria/7.jpg" alt="" srcset="">
     <img class="myImg " src="../src/images/galeria/20.jpg" alt="" srcset="">
     <img class="myImg " src="../src/images/galeria/9.jpg" alt="" srcset="">
     <img class="myImg " src="../src/images/galeria/10.jpg" alt="" srcset="">
@@ -120,9 +132,9 @@
   <footer id="footer">
     <div class="footer__wrapper">
       <div class="footer__sponsors flex flex-js-c flex-ai-fs">
-        
+
         <img src="/src/images/logotext/default-image.jpg" alt="gallery photo" />
-        
+
         <img src="/src/images/logotext/unnamed.png" alt="gallery photo" />
       </div>
       <div class="footer__contact">
